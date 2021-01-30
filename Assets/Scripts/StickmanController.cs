@@ -35,7 +35,7 @@ public class StickmanController : MonoBehaviour
             GameController.instance.HitSoundPlay();
             Instantiate(splash, stickmanPos.position, stickmanPos.rotation);
             GameController.instance.score += 1;
-            enemySpeed += 0.0002f;
+            enemySpeed += 0.001f;
         }
     }
 
